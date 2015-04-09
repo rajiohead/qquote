@@ -1,0 +1,13 @@
+#!/usr/bin/python
+from random import randint
+from textwrap import fill
+txt = open("quotes.txt", "r")
+
+unsorted = txt.read()
+formattedtxt = unsorted.split(']')
+readytext = []
+for i in formattedtxt:
+    readytext.append(i[2:]) 
+length = len(formattedtxt) - 1
+rando = randint(0, length)
+print(fill(readytext[rando]))
