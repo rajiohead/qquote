@@ -1,5 +1,5 @@
 # qquote
-print a random quote from a formatted file
-USAGE: qquote
-reads from a file called quotes.txt in cwd.
-format the file like this: [quote][quote2][quote3]
+print a random quote from a formatted file \n
+USAGE: qquote \n
+reads from a file called quotes.txt in cwd.\n
+format the file like this: [quote][quote2][quote3] \n
